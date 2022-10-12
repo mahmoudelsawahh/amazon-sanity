@@ -1,16 +1,12 @@
 import { Typography } from '@mui/material';
 import Head from 'next/head';
 import React from 'react'
+import Layout from '../components/layout/Layout';
 
  const Home = () => {
   return (
     <>
-      <Head>
-        <title>E-commerce Sanity</title>
-        <meta name="description" content="the website build by next js and sanity"/>
-        <line ref='icon' href='/favicon.ico'/>
-      </Head>
-      <Typography variant='h3'>Hello Sanity</Typography>
+      <Layout>List Products</Layout>
     </>
   )
 }
